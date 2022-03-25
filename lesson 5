@@ -1,0 +1,13 @@
+print('Hello <you>')
+print('What is your name?')
+myName = input('Enter your name: ')
+
+buns = ['Hank', 'Dorothy']
+if myName == 'Hank':
+    print('You\'re such a good bun!')
+elif myName == 'Dorothy':
+    print('You\'re such a good bun!')
+elif myName == 'Drew':
+    print('Hey Drew')
+else:
+    print('Nice to meet you ' + myName)
