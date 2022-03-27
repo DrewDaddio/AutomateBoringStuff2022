@@ -1,3 +1,5 @@
+import pprint
+
 Hank = {'Color': 'white and brown', 'attitude': 'brave', 'Sex': 'male'}
 print(Hank)
 
@@ -27,3 +29,22 @@ print(hankkeys())
 print(hankvalues())
 print(hankitems1())
 print(hankitems2())
+
+Hank.setdefault('Size', 'tiny')
+print(hankitems2())
+
+#message: count characters
+
+def countMessage():
+    message = 'It was a bright cold day in April, and the really large clocks were striking thirteen.'
+    count = {}
+
+    for character in message.upper():
+        count.setdefault(character, 0)
+        count[character] = count[character] + 1
+
+    print(count)
+    pprint.pprint(count)
+
+countMessage()
+
