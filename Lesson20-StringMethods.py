@@ -14,3 +14,9 @@ print(string[6].isspace())
 
 pyperclip.copy('Hello')
 print('Check if you can paste \'Hello\'')
+
+print(','.join(['cats', 'rats', 'bats']))
+print(' '.join(['cats', 'rats', 'bats']))
+
+print('His name is Hank.'.split())
+print('His name is Hank.'.split('H'))
